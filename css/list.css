@@ -1,0 +1,51 @@
+/* Other styles remain the same */
+
+/* Styling for bus list section */
+.bus-list {
+    margin-top: 20px;
+  }
+  
+  .bus-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .bus-list li {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .bus-list li:hover {
+    transform: translateY(-5px);
+  }
+  
+  .bus-list h3 {
+    margin-top: 0;
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 5px;
+  }
+  
+  .bus-list p {
+    color: #666;
+    margin: 5px 0;
+  }
+  
+  .bus-list button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .bus-list button:hover {
+    background-color: #555;
+  }
+  
